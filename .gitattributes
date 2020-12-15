@@ -1,0 +1,2 @@
+lib/protocol/genesis.json -diff
+lib/protocol/genesis-data.json -diff
