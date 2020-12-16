@@ -12,7 +12,7 @@ const {ChainEntry, FullNode, KeyRing, MTX, Network, Path} = require('..');
 const {NodeClient, WalletClient} = require('hs-client');
 
 class TestUtil {
-  constructor(options) {config.yml_mainnet
+  constructor(options) {
     if (!options)
       options = Object.create(null);
 
