@@ -11,7 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="94c79c6a-8dcd-436d-b61b-14146c24ef82" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mining/template.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/mining/template.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/node/rpc.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/node/rpc.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,13 +36,6 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,7 +54,8 @@
       <workItem from="1607915769049" duration="18372000" />
       <workItem from="1608083703191" duration="632000" />
       <workItem from="1608084980706" duration="422000" />
-      <workItem from="1608085611575" duration="65408000" />
+      <workItem from="1608085611575" duration="69932000" />
+      <workItem from="1609302895166" duration="600000" />
     </task>
     <servers />
   </component>
@@ -74,10 +67,11 @@
       <screen x="0" y="23" width="3386" height="1417" />
     </state>
     <state x="297" y="393" key="#com.intellij.execution.impl.EditConfigurationsDialog/945.1463.1440.877/0.23.3386.1417@0.23.3386.1417" timestamp="1608188587106" />
-    <state x="527" y="486" width="1077" height="823" key="find.popup" timestamp="1609124095583">
+    <state x="527" y="486" width="1077" height="823" key="find.popup" timestamp="1609424588817">
       <screen x="0" y="23" width="3386" height="1417" />
     </state>
     <state x="217" y="310" width="568" height="510" key="find.popup/0.23.1395.877@0.23.1395.877" timestamp="1608517703626" />
-    <state x="527" y="486" width="1077" height="823" key="find.popup/945.1463.1440.877/0.23.3386.1417@0.23.3386.1417" timestamp="1609124095583" />
+    <state x="527" y="486" width="1077" height="823" key="find.popup/945.1463.1440.877/0.23.3386.1417@0.23.3386.1417" timestamp="1609237406025" />
+    <state x="527" y="486" width="1077" height="823" key="find.popup/993.1463.1440.877/0.23.3386.1417@0.23.3386.1417" timestamp="1609424588817" />
   </component>
 </project>
