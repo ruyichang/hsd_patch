@@ -694,3 +694,16 @@ describe('Node', function() {
     await node.close();
   });
 });
+
+describe('SubmitBlock', function () {
+  it('submit block test', async () => {
+    const hdr = Headers.fromMiner(Buffer.from("f9528c38f65b0a6000000000ac6266e23936115030a5c565f0b4195bd6fbdac80000000000000001dc6ab79929c0f8cb51caaeffd05bf56c9025db7530114f35ac6266e239361151eccf72fcd974e190873174372982dbd7bf0ac7cac366f638758d03106a01179275bef4a4ea5430cbbf7363d84dab761491c05378cad0ed746500090300000044000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000f278f5a1a1215c3348ab78968d70db49f7d555afa35d177859b25037f3728cb79cc7c455eb42257af60681f04a997185b3a84f55a31b77bb93b552ea37af239c0000000057b00419", 'hex'));
+    console.log(hdr);
+    console.log(hdr._maskHash.toString('hex'));
+    const {nonce, time, extraNonce} = hdr;
+    const attempt = await node.miner.createBlock();
+    const proof = attempt.getProof(nonce, time, extraNonce, hdr._maskHash);
+    const block = attempt.commit(proof);
+    console.log(block.hash().toString('hex'));
+  });
+});
